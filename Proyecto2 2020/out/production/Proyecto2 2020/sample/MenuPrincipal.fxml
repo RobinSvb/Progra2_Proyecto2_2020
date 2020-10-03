@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controladores.MainController">
+   <children>
+      <MenuBar prefHeight="25.0" prefWidth="700.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Clientes">
+            <items>
+              <MenuItem fx:id="cmdRegistrarCliente" onAction="#RegistrarCliente" mnemonicParsing="false" text="Registar" />
+                  <MenuItem fx:id="cmdModificarCliente" onAction="#ModificarCliente" mnemonicParsing="false" text="Modificar" />
+                  <MenuItem fx:id="cmdEliminarCliente" onAction="#EliminarCliente" mnemonicParsing="false" text="Activar/Inactivar" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Productos">
+              <items>
+              <MenuItem fx:id="cmdRegistrarProducto" onAction="#RegistrarProducto" mnemonicParsing="false" text="Registar" />
+              <MenuItem fx:id="cmdModificarProducto" onAction="#ModificarProducto" mnemonicParsing="false" text="Modificar" />
+              <MenuItem fx:id="cmdEliminarProducto" onAction="#EliminarProducto" mnemonicParsing="false" text="Activar/Inactivar" />
+          </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Ordenes">
+              <items>
+                  <MenuItem fx:id="cmdRegistrarOrden" onAction="#RegistrarOrden" mnemonicParsing="false" text="Iniciar Compra" />
+                  </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Reportes">
+               <items>
+                  <MenuItem onAction="#ReporteClientes" mnemonicParsing="false" text="Reporte Clientes" />
+                   <MenuItem onAction="#ReporteProductos" mnemonicParsing="false" text="Reporte Productos" />
+                   <MenuItem onAction="#ReporteOrdenes" mnemonicParsing="false" text="Reporte Ordenes" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Salir">
+               <items>
+                  <MenuItem mnemonicParsing="false" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="                                                  " />
+            <Menu mnemonicParsing="false" text="7690-19-11292" />
+            <Menu mnemonicParsing="false" text="Robin Vasquez" />
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
